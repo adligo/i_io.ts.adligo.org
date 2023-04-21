@@ -23,3 +23,6 @@
 hs_err_pid*
 /bin/
 /dist/
+/lib/
+/node_modules/
+/package-lock.json

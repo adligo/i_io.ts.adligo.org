@@ -1,15 +1,17 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationMap": true,
     "experimentalDecorators": true,
     "target": "ES2022",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "noImplicitAny": true,
     "outDir": "./dist",
-    "rootDirs": ["./src", "./tests"],
+    "rootDirs": ["./src"],
     "preserveConstEnums": true,
     "sourceMap": true
   },
-  "files": ["./src/i_io.mts"],
-  "exclude": ["node_modules"]
+  "exclude": ["dist","lib","node_modules"],
+  "files": ["./src/i_io.mts"]
 }
