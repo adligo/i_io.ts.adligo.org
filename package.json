@@ -1,4 +1,7 @@
 {
+  "bin": {
+    "i_io": "./dist/i_io.mjs"
+  },
   "devDependencies": {
     "gulp": "^4.0.2",
     "typescript": "^5.0.4"
@@ -25,8 +28,13 @@
     }
   },
   "scripts": {
+    "build": "tsc",
     "tsc": "tsc"
   },
+  "sharedNodeModuleProjectSLinks": [
+    "slink_group_deps.ts.adligo.org",
+    "fab_group_deps.ts.adligo.org"
+  ],
   "type": "module",
   "types": "src/i_io.mts",
   "version": "0.0.2"
