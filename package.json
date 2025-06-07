@@ -10,6 +10,8 @@
   "lockfileVersion": 3,
   "main": "./dist/i_io",
   "name": "@ts.adligo.org/i_io",
+  "sharedNodeModuleProjectSLinkEnvVar": ["TESTS4TS_NODE_MODULE_SLINK"],
+  "sharedNodeModuleProjectSLinks": ["slink_group_deps.ts.adligo.org", "fab_group_deps.ts.adligo.org"],
   "type": "module",
   "types": "src/i_io.mts",
   "version": "0.0.2"
