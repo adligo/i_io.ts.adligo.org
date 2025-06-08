@@ -12,7 +12,7 @@
   "main": "./dist/i_io",
   "name": "@ts.adligo.org/i_io",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && slink -p",
     "tsc": "tsc"
   },
   "sharedNodeModuleProjectSLinkEnvVar": ["TESTS4TS_NODE_MODULE_SLINK"],
