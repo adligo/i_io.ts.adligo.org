@@ -1,7 +1,8 @@
 {
   "author": "Scott Morgan",
   "bin": {
-    "i_io": "./dist/i_io.mjs"
+    "i_io.mjs": "./dist/i_io.mjs",
+    "i_io.mts": "./src/i_io.mts"
   },
   "devDependencies": {
     "gulp": "^4.0.2",
@@ -17,5 +18,5 @@
   "sharedNodeModuleProjectSLinks": ["slink_group_deps.ts.adligo.org", "fab_group_deps.ts.adligo.org"],
   "type": "module",
   "types": "src/i_io.mts",
-  "version": "0.0.3"
+  "version": "0.0.4"
 }
