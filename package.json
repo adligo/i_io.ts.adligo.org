@@ -5,7 +5,7 @@
     "i_io.mts": "./src/i_io.mts"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "typescript": "^5.0.4"
   },
   "lockfileVersion": 3,
