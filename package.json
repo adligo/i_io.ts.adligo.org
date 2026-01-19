@@ -5,8 +5,7 @@
     "i_io.mts": "./src/i_io.mts"
   },
   "devDependencies": {
-    "gulp": "^5.0.1",
-    "typescript": "^5.0.4"
+    "typescript": "^5.9.3"
   },
   "lockfileVersion": 3,
   "main": "./dist/i_io",
@@ -16,8 +15,9 @@
     "tsc": "tsc"
   },
   "sharedNodeModuleProjectSLinkEnvVar": ["OBJ_NODE_MODULE_SLINK"],
-  "sharedNodeModuleProjectSLinks": ["slink_group_deps.ts.adligo.org", "fab_group_deps.ts.adligo.org"],
+  "sharedNodeModuleProjectSLinks": ["fab_group_deps.ts.adligo.org", "mvpa_group_deps.ts.adligo.org", 
+    "slink_group_deps.ts.adligo.org"],
   "type": "module",
   "types": "src/i_io.mts",
-  "version": "0.0.5"
+  "version": "0.0.6"
 }
